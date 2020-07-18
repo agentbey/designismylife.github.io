@@ -1,406 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<title>designismylife</title>
-	<!--
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="team" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    Template 2106 Soft Landing
-
-	http://www.tooplate.com/view/2106-soft-landing
-
-    -->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="team" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-style.css">
-
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
+<body id="top">
 
-               <span class="spinner-rotate"></span>
+<!-- MENU -->
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+         <div class="navbar-header">
+					 <div class="flex-grid">
+							<div class="col float-left">
+							 	<p><a href="index.html" class="navbar-brand">designismylife+</a></p>
+							</div>
+							<div class="col float-right">
+								<p>
+									<a href="#top" class="top smoothScroll"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+									<a href="#feature" class="feature smoothScroll"><i class="fa fa-code" aria-hidden="true"></i></a>
+									<a href="#about" class="about smoothScroll"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+									<a href="#testimonial" class="testimonial smoothScroll"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+									<a href="#process" class="process smoothScroll"><i class="fa fa-gg" aria-hidden="true"></i></a>
+									<a href="#contact" class="contact smoothScroll"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+								</p>
+							</div>
+						</div>
+         </div>
+    </div>
+</section>
 
+<!-- HOME -->
+<section id="home">
+    <div class="overlay"></div>
+    <div class="container">
+         <div class="row">
+             <div class="home-info">
+                  <h1>Building Positive Experiences to Drive Customer Loyalty and Business Profits</h1>
+             </div>
+         </div>
+    </div>
+</section>
+
+<!-- FEATURE -->
+<section id="feature">
+	<div class="container">
+	<div class="row">
+
+		<div class="section-title">
+		<h1>What You Experience</h1>
+		</div>
+				<div id="tabs" class="tabs-content">
+			     <button class="tablinks" onclick="openExperience(event, 'Responsive')">1</button>
+		       <button class="tablinks"	onclick="openExperience(event, 'Mobile')">2</button>
+		       <button class="tablinks" onclick="openExperience(event, 'Support')">3</button>
+				</div>
+					<div class="flex-grid">
+						<div class="col">
+				     <div id="Responsive" class="tabcontent">
+							<h2>Minimal Design</h2>
+								<p>Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula ornare, pellentesque velit eget, vestibulum est. Donec pretium tristique elit eget sodales. Pellentesque posuere.</p>
+
+							<h2>Easy to use</h2>
+								<p>Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac felis sagittis, faucibus mauris vitae, placerat mauris.</p>
+				     </div>
+				     <div id="Mobile" class="tabcontent hide">
+			          <h2>Compatible Browsers</h2>
+			          	<p>Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra iaculis. Nunc euismod sit amet neque a tincidunt.</p>
+
+			          <h2>User Friendly</h2>
+			          	<p>Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum.</p>
+
+			          <h2>HTML5 & CSS3</h2>
+			          <p>In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi vehicula sagittis. Nulla dictum magna sit amet pharetra aliquam.</p>
+				     	</div>
+				      <div id="Support" class="tabcontent hide">
+			          <h2>Quick Support</h2>
+			          <p>Mauris rutrum est at fringilla pulvinar. Nam ligula urna, lobortis non scelerisque vel, molestie eu massa. Nullam mattis elit at tortor accumsan.</p>
+
+			          <h2>Managed Stuffs</h2>
+			          <p>Quisque ullamcorper sem quis sapien cursus efficitur. Sed id sodales ipsum. Morbi eleifend tempus erat sit amet vehicula. Nulla at posuere tellus, non mattis erat. Nulla id massa gravida.</p>
+				      </div>
+
+
+							</div>
+							<div class="col">
+								<div class="feature-image">
+										 <img src="images/feature-mockup.png" class="img-responsive" alt="Thin Laptop">
+								</div>
+							</div>
+					</div>
+		</div>
+  </div>
+					<script>
+						function openExperience(evt, tabExperience) {
+						  var i, tabcontent, tablinks;
+						  tabcontent = document.getElementsByClassName("tabcontent");
+						  for (i = 0; i < tabcontent.length; i++) {
+						    tabcontent[i].style.display = "none";
+						  }
+						  tablinks = document.getElementsByClassName("tablinks");
+						  for (i = 0; i < tablinks.length; i++) {
+						    tablinks[i].className = tablinks[i].className.replace(" active", "");
+						  }
+						  document.getElementById(tabExperience).style.display = "block";
+						  evt.currentTarget.className += " active";
+						}
+				</script>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+		<div class="container">
+			<div class="section-title">
+					 <h1>Meet The Team</h1>
+			</div>
+			<div class="flex-grid">
+          <div class="col">
+             <div class="team-thumb">
+                <img src="images/team-image1.jpg" class="img-responsive" alt="Andrew Orange">
+                <div class="team-info team-thumb-up">
+                     <h2>Andrew Orange</h2>
+                     <small>Art Director</small>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+             </div>
           </div>
+
+          <div class="col">
+						<div class="team-thumb">
+					    <div class="team-info team-thumb-down">
+					         <h2>Catherine Soft</h2>
+					         <small>Senior Manager</small>
+					         <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+					    </div>
+					    <img src="images/team-image2.jpg" class="img-responsive" alt="Catherine Soft">
+						</div>
+          </div>
+
+          <div class="col">
+               <div class="team-thumb">
+                    <img src="images/team-image3.jpg" class="img-responsive" alt="Agent Bey">
+                    <div class="team-info team-thumb-up">
+                         <h2>David aka "Agent Bey"</h2>
+                         <small>Creative Director</small>
+                         <p>David is a natural problem solver. He uses an empathetic process of design thinking to unleashed the potential of your enterprise's growth.</p>
+                    </div>
+               </div>
+          </div>
+			</div>
+		</div>
+</section>
+
+<!-- CLIENT LIST -->
+<section id="client-list">
+		<div class="container">
+			<div class="section-title">
+					 <h1>Clients Served</h1>
+			</div>
+			<div class="flex-grid">
+					<div class="col">Acuity Brands</div>
+					<div class="col">Arby's</div>
+					<div class="col">Baumgartens</div>
+			</div>
+			<div class="flex-grid">
+					<div class="col">Delta Air Lines</div>
+					<div class="col">EM Science</div>
+					<div class="col">Hansgrohe</div>
+			</div>
+			<div class="flex-grid">
+				<div class="col">Ignite Communications</div>
+				<div class="col">Noel Mayo Associates</div>
+					<div class="col">Pure Bliss Organics</div>
+			</div>
+			<div class="flex-grid">
+					<div class="col">Star Spirit International</div>
+					<div class="col">TrustGo Mobile</div>
+					<div class="col">Venza Group</div>
+			</div>
+		</div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section id="testimonial">
+		<div class="container">
+				<div class="row">
+				    <div class="col">
+				         <div class="testimonial-image"></div>
+				    </div>
+				    <div class="col">
+				         <div class="testimonial-info">
+				              <div class="section-title">
+				                   <h1>Client's Love Us</h1>
+				              </div>
+
+				              <div class="owl-carousel owl-theme">
+				                   <div class="item">
+														 <div class="testimonial-item">
+																	<img src="images/tst-image1.jpg" class="img-responsive" alt="Dr. Rimka">
+														 </div>
+				                        <p>I had a business coaching session with David and I tripled my business income. It was awesome!</p>
+																<h4>Dr. Rimka - Brain and Body Solutions</h4>
+				                   </div>
+				                   <div class="item">
+														 <div class="testimonial-item">
+																	<img src="images/tst-image2.jpg" class="img-responsive" alt="Daniel">
+														 </div>
+				                        <p>David gets "it"; he is able to take a concept, a thought, and crystalize the context into an engaging, creative, visual form. I highly recommend David for your design and publishing needs.</p>
+																<h4>Daniel - Venza Group</h4>
+				                   </div>
+													 <div class="item">
+														 <div class="testimonial-item">
+																	<img src="images/tst-image4.jpg" class="img-responsive" alt="Terri">
+														 </div>
+																<p>Aristotle said "We are what we repeatedly do. Excellence, then, is not an act, but a habit." This statement perfectly sums up the attitude, process and delivery of David’s work which is always done in a spirit of excellence.</p>
+																<h4>Terri - Live Your Nature</h4>
+													 </div>
+				                   <div class="item">
+														 <div class="testimonial-item">
+																	<img src="images/tst-image3.jpg" class="img-responsive" alt="Ruby">
+														 </div>
+				                        <p>The work you are doing is vitally important to me and the growth of my company and livelihood.</p>
+																<h4>Ruby - Development Counts</h4>
+				                   </div>
+				              </div>
+				         </div>
+				    </div>
+				</div>
+		</div>
+</section>
+
+<!-- process -->
+     <section id="process">
+          <div class="container">
+						<div class="section-title">
+								 <h1>We Use Design Thinking To Grow Your Enterprise</h1>
+						</div>
+						<div class="flex-grid">
+			          <div class="col">
+			               <div class="process-thumb">
+			                   <div class="process-title">
+													 		<img class="center" src="images/engagement.png" alt="Understand" width="40" height="40">
+			                        <h2>Understand</h2>
+			                   </div>
+			                   <div class="process-info">
+			                         <p>With empty mind, our approach is to brainstorm exactly what your customers are looking to experience with your product(s) and/or service.</p>
+			                   </div>
+			               </div>
+			          </div>
+
+			          <div class="col">
+			               <div class="process-thumb">
+			                   <div class="process-title">
+													 		<img class="center" src="images/discover.png" alt="Explore" width="40" height="40">
+			                        <h2>Explore</h2>
+			                   </div>
+			                   <div class="process-info">
+			                         <p>In this stage, we explore various outcomes to move the data gathered from understanding into an actionable result.</p>
+			                   </div>
+			               </div>
+			          </div>
+
+			          <div class="col">
+			               <div class="process-thumb">
+			                   <div class="process-title">
+												 			<img class="center" src="images/research.png" alt="Test" width="40" height="40">
+			                        <h2>Test</h2>
+			                   </div>
+			                   <div class="process-info">
+			                         <p>Build quick. Fail fast. Having a proof of concept to test against, informs us how the solution functions and can it sustain itself in the marketplace.</p>
+			                   </div>
+			               </div>
+			          </div>
+								<div class="col">
+										 <div class="process-thumb">
+												 <div class="process-title">
+													 		<img class="center" src="images/innovation.png" alt="Test" width="40" height="40">
+															<h2>Apply</h2>
+												 </div>
+												 <div class="process-info">
+															<p>Mission complete. Time to launch. But the process doesn't stop there. We empower clients to monitor results to see how things thrive in real-time.</p>
+												 </div>
+										 </div>
+								</div>
+          		</div>
+							<div class="hidden">Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+						</div>
      </section>
 
+<!-- CONTACT -->
+     <section id="contact">
+			 	<div class="container">
+					<div class="section-title">
+							<h1>Let’s Talk About New Business Opportunities</h1>
+					</div>
+					<!-- Begin Mailchimp Signup Form -->
+							<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+							<style type="text/css">
+							#mc_embed_signup{clear:left; font:14px}
+									input[type="text"], input[type="email"], input[type="textarea"] {width: 100%;}
+									#mc_embed_signup .mc-field-group input, #mce-SECTOR {
+										font-size: 20px;
+										border: 1px solid #ccc;
+										padding: 10px;
+										border-radius: 5px;
+									}
+									label {
+									    line-height: 32px;
+									}
+									.indicates-required {
+										text-align: right;
+										font-size: 14px;
+									}
+									.mc-field-group {
+									    margin: 20px 10px;
+									}
+									input#mc-embedded-subscribe {
+										display: block;
+										margin: 60px auto 0;
+										border: none;
+									}
+									#mc_embed_signup .button {
+										background: #ff5722;
+								    border: 0;
+								    border-radius: 50px;
+								    color: #ffffff;
+								    font-size: 14px;
+								    font-weight: 600;
+								    letter-spacing: 1px;
+								    padding: 12px 30px;
+								    transition: 0.5s 0.2s;
+								    text-transform: uppercase;
+									}
+							</style>
+							<div id="mc_embed_signup">
+							<form action="https://designismylife.us10.list-manage.com/subscribe/post?u=155d444cf8b664a59309bdbfd&amp;id=5ba9fe04fd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
 
-     <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
-
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
-
-                    <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">designismylife+</a>
-               </div>
-
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                         <li><a href="#home" class="smoothScroll">Home</a></li>
-                         <li><a href="#feature" class="smoothScroll">Features</a></li>
-                         <li><a href="#about" class="smoothScroll">About us</a></li>
-                         <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#">Say hello - <span>info@soft.co</span></a></li>
-                    </ul>
-               </div>
-
-          </div>
+							<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+								<div class="flex-grid">
+										<div class="col">
+											<div class="mc-field-group">
+												<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+											</label>
+												<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+											</div>
+										</div>
+										<div class="col">
+											<div class="mc-field-group">
+												<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+											</label>
+												<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+											</div>
+										</div>
+								</div>
+								<div class="flex-grid">
+										<div class="col">
+												<div class="mc-field-group">
+												<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+												</label>
+												<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+												</div>
+										</div>
+										<div class="col">
+												<div class="mc-field-group size1of2">
+												<label for="mce-PHONE">Phone Number </label>
+												<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+												</div>
+										</div>
+								</div>
+								<div class="flex-grid">
+										<div class="col">
+												<div class="mc-field-group">
+												<label for="mce-JOBTITLE">Job Title </label>
+												<input type="text" value="" name="JOBTITLE" class="" id="mce-JOBTITLE">
+												</div>
+										</div>
+										<div class="col">
+												<div class="mc-field-group">
+												<label for="mce-COMPANY">Company </label>
+												<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+												</div>
+										</div>
+								</div>
+							<div class="mc-field-group">
+								<label for="mce-WESUPPORT">How Can We Support You? </label>
+								<input type="textarea" value="" name="WESUPPORT" class="" id="mce-WESUPPORT">
+							</div>
+							<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_155d444cf8b664a59309bdbfd_5ba9fe04fd" tabindex="-1" value=""></div>
+									<div class="clear"><input type="submit" value="Submit To Get Started" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</div>
+							</form>
+							</div>
+							<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[3]='JOBTITLE';ftypes[3]='text';fnames[5]='COMPANY';ftypes[5]='text';fnames[7]='SECTOR';ftypes[7]='dropdown';fnames[8]='WESUPPORT';ftypes[8]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+							<!--End mc_embed_signup-->
+					</div>
      </section>
 
+<!-- FOOTER -->
+		<footer id="footer">
+		    <div class="container">
+					<div class="flex-grid">
+						<div class="col float-left">
+						    <p>Copyright &copy; <script type="text/javascript">document.write( new Date().getFullYear() );</script> designismylife</p>
+						</div>
+						<div class="col float-right">
+						  <ul class="social-icon">
+						       <li><a href="https://www.facebook.com/agentbey/" target="_blank" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+						       <li><a href="https://twitter.com/agentbey" target="_blank" class="fa fa-twitter"></a></li>
+						       <li><a href="https://www.instagram.com/agentbey.travel/" target="_blank" class="fa fa-instagram"></a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+		</footer>
 
-     <!-- FEATURE -->
-     <section id="home" data-stellar-background-ratio="0.5">
-          <div class="overlay"></div>
-          <div class="container">
-               <div class="row">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+				// SMOOTHSCROLL
+				$(document).ready(function(){
+				// Add smooth scrolling to all links
+				$(".smoothScroll").on('click', function(event) {
 
-                    <div class="col-md-offset-3 col-md-6 col-sm-12">
-                         <div class="home-info">
-                              <h3>professional landing page</h3>
-                              <h1>We help you manage your website successfully!</h1>
-                              <form action="" method="get" class="online-form">
-                                   <input type="email" name="email" class="form-control" placeholder="Enter your email" required="">
-                                   <button type="submit" class="form-control">Get started</button>
-                              </form>
-                         </div>
-                    </div>
+						// Make sure this.hash has a value before overriding default behavior
+						if (this.hash !== "") {
+							// Prevent default anchor click behavior
+							event.preventDefault();
 
-               </div>
-          </div>
-     </section>
+							// Store hash
+							var hash = this.hash;
 
+							// Using jQuery's animate() method to add smooth page scroll
+							// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+							$('html, body').animate({
+								scrollTop: $(hash).offset().top
+							}, 800, function(){
 
-     <!-- FEATURE -->
-     <section id="feature" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h1>What you get</h1>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <ul class="nav nav-tabs" role="tablist">
-                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Responsive</a></li>
-
-                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Mobile</a></li>
-
-                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Support</a></li>
-                         </ul>
-
-                         <div class="tab-content">
-                              <div class="tab-pane active" id="tab01" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <h2>Minimal Design</h2>
-                                        <p>Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula ornare, pellentesque velit eget, vestibulum est. Donec pretium tristique elit eget sodales. Pellentesque posuere.</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Easy to use</h2>
-                                        <p>Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac felis sagittis, faucibus mauris vitae, placerat mauris.</p>
-                                   </div>
-                              </div>
-
-
-                              <div class="tab-pane" id="tab02" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <h2>Compatible Browsers</h2>
-                                        <p>Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra iaculis. Nunc euismod sit amet neque a tincidunt.</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>User Friendly</h2>
-                                        <p>Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum.</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>HTML5 & CSS3</h2>
-                                        <p>In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi vehicula sagittis. Nulla dictum magna sit amet pharetra aliquam.</p>
-                                   </div>
-                              </div>
-
-                              <div class="tab-pane" id="tab03" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <h2>Quick Support</h2>
-                                        <p>Mauris rutrum est at fringilla pulvinar. Nam ligula urna, lobortis non scelerisque vel, molestie eu massa. Nullam mattis elit at tortor accumsan.</p>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                        <h2>Managed Stuffs</h2>
-                                        <p>Quisque ullamcorper sem quis sapien cursus efficitur. Sed id sodales ipsum. Morbi eleifend tempus erat sit amet vehicula. Nulla at posuere tellus, non mattis erat. Nulla id massa gravida.</p>
-                                   </div>
-                              </div>
-                         </div>
-
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <div class="feature-image">
-                              <img src="images/feature-mockup.png" class="img-responsive" alt="Thin Laptop">
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- ABOUT -->
-     <section id="about" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-offset-3 col-md-6 col-sm-12">
-                         <div class="section-title">
-                              <h1>Professional Team for you</h1>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="team-thumb">
-                              <img src="images/team-image1.jpg" class="img-responsive" alt="Andrew Orange">
-                              <div class="team-info team-thumb-up">
-                                   <h2>Andrew Orange</h2>
-                                   <small>Art Director</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="team-thumb">
-                              <div class="team-info team-thumb-down">
-                                   <h2>Catherine Soft</h2>
-                                   <small>Senior Manager</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
-                              </div>
-                              <img src="images/team-image2.jpg" class="img-responsive" alt="Catherine Soft">
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="team-thumb">
-                              <img src="images/team-image3.jpg" class="img-responsive" alt="Jack Wilson">
-                              <div class="team-info team-thumb-up">
-                                   <h2>Jack Wilson</h2>
-                                   <small>CEO / Founder</small>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- TESTIMONIAL -->
-     <section id="testimonial" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-12">
-                         <div class="testimonial-image"></div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-12">
-                         <div class="testimonial-info">
-
-                              <div class="section-title">
-                                   <h1>What People Say</h1>
-                              </div>
-
-                              <div class="owl-carousel owl-theme">
-                                   <div class="item">
-                                        <h3>Vestibulum tempor facilisis efficitur. Sed nec nisi sit amet nibh pellentesque elementum. In viverra ipsum ornare sapien rhoncus ullamcorper.</h3>
-                                        <div class="testimonial-item">
-                                             <img src="images/tst-image1.jpg" class="img-responsive" alt="Michael">
-                                             <h4>Michael</h4>
-                                        </div>
-                                   </div>
-
-                                   <div class="item">
-                                        <h3>Donec pretium tristique elit eget sodales. Pellentesque posuere, nunc id interdum venenatis, leo odio cursus sapien, ac malesuada nisl libero eget urna.</h3>
-                                        <div class="testimonial-item">
-                                             <img src="images/tst-image2.jpg" class="img-responsive" alt="Sofia">
-                                             <h4>Sofia</h4>
-                                        </div>
-                                   </div>
-
-                                   <div class="item">
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</h3>
-                                        <div class="testimonial-item">
-                                             <img src="images/tst-image3.jpg" class="img-responsive" alt="Monica">
-                                             <h4>Monica</h4>
-                                        </div>
-                                   </div>
-                              </div>
-
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- PRICING -->
-     <section id="pricing" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h1>Choose any plan</h1>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Student</h2>
-                             </div>
-                             <div class="pricing-info">
-                                   <p>20 Responsive Designs</p>
-                                   <p>10 Dashboards</p>
-                                   <p>1 TB Storage</p>
-                                   <p>6 TB Bandwidth</p>
-                                   <p>24-hour Support</p>
-                             </div>
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">$200/mo</span>
-                                   <a href="#" class="section-btn pricing-btn">Register now</a>
-                             </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Business</h2>
-                             </div>
-                             <div class="pricing-info">
-                                   <p>50 Responsive Designs</p>
-                                   <p>30 Dashboards</p>
-                                   <p>2 TB Storage</p>
-                                   <p>12 TB Bandwidth</p>
-                                   <p>15-minute Support</p>
-                             </div>
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">$350/mo</span>
-                                   <a href="#" class="section-btn pricing-btn">Register now</a>
-                             </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Professional</h2>
-                             </div>
-                             <div class="pricing-info">
-                                   <p>100 Responsive Designs</p>
-                                   <p>60 Dashboards</p>
-                                   <p>5 TB Storage</p>
-                                   <p>25 TB Bandwidth</p>
-                                   <p>1-minute Support</p>
-                             </div>
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">$550/mo</span>
-                                   <a href="#" class="section-btn pricing-btn">Register now</a>
-                             </div>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- CONTACT -->
-     <section id="contact" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-offset-1 col-md-10 col-sm-12">
-                         <form id="contact-form" role="form" action="" method="post">
-                              <div class="section-title">
-                                   <h1>Say hello to us</h1>
-                              </div>
-
-                              <div class="col-md-4 col-sm-4">
-                                   <input type="text" class="form-control" placeholder="Full name" name="name" required="">
-                              </div>
-                              <div class="col-md-4 col-sm-4">
-                                   <input type="email" class="form-control" placeholder="Email address" name="email" required="">
-                              </div>
-                              <div class="col-md-4 col-sm-4">
-                                   <input type="submit" class="form-control" name="send message" value="Send Message">
-                              </div>
-                              <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="8" placeholder="Your message" name="message" required=""></textarea>
-                              </div>
-                         </form>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- FOOTER -->
-     <footer id="footer" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="copyright-text col-md-12 col-sm-12">
-                         <div class="col-md-6 col-sm-6">
-                              <p>Copyright &copy; 2018 Company Name - Design:
-                				<a rel="nofollow" href="http://tooplate.com">Tooplate</a></p>
-                         </div>
-
-                         <div class="col-md-6 col-sm-6">
-                              <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </footer>
-
-
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
-
+								// Add hash (#) to URL when done scrolling (default click behavior)
+								window.location.hash = hash;
+							});
+						} // End if
+					});
+				});
+		</script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script>
+					$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:false,
+					dots:true,
+					autoplay:false,
+					navText:["<div class='nav-btn prev-slide'>╱╲</div>","<div class='nav-btn next-slide'>╱╲</div>"],
+					responsive:{
+							0:{
+									items:1
+							},
+							600:{
+									items:1
+							},
+							1000:{
+									items:1
+							}
+					}
+			})
+		</script>
 </body>
 </html>
