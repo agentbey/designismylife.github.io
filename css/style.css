@@ -19,8 +19,7 @@ h1 {
   font-size: 1.6rem;
   text-align: center;
   margin: 0;
-  letter-spacing: -1px;
-    font-weight: 800;
+  font-weight: 800;
 }
 h2 {
   font-size: 1.2em;
@@ -65,7 +64,7 @@ input, button,
 transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-color: #36A9E1;
+color: #e91e63;
 outline: none;
 }
 ::-webkit-scrollbar{
@@ -224,7 +223,7 @@ color: #ffffff;
 
 /* HOME */
 #home .container {
-    max-width: 800px;
+    max-width: 820px;
 }
 .home-info {
     margin: 7em 20px 0;
@@ -248,7 +247,7 @@ color: #ffffff;
 #home h1 {
   color: #ffffff;
   font-size: 2em;
-  background: #00aae7d1;
+  background: #ff0078e6;
   margin-top: 10px;
   margin-bottom: 40px;
   padding: 100px 50px;
@@ -273,9 +272,9 @@ color: #ffffff;
   background: #ffffff;
 }
 button.tablinks {
-    color: #262626;
+    color: #ff0078;
     border: 0;
-    border: 2px solid #262626;
+    border: 2px solid #ff0078;
     background: #ffffff;
     border-radius: 50%;
     font-size: 14px;
@@ -292,7 +291,7 @@ button.tablinks:focus {
     outline: none;
 }
 button.tablinks:hover,button.tablinks.active {
-    background: #262626;
+    background: #ff0078;
     color: #ffffff;
 }
 .tabs-content {
@@ -465,6 +464,9 @@ section#client-list {
 }
 button.owl-dot:focus {
     outline: transparent;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff0077;
 }
 
 /* FORM */
