@@ -63,12 +63,7 @@ input, button,
 -webkit-transition: 0.5s;
 transition: 0.5s;
 }
-.navbar-header a:hover, .navbar-header a:active, .navbar-header a:focus {
-    color: #fff;
-    outline: none;
-    border: 1px solid #3f51b5;
-    background: #3f51b5;
-}
+
 ::-webkit-scrollbar{
 width: 8px;
 height: 8px;
