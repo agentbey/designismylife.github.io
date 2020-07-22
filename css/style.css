@@ -63,9 +63,11 @@ input, button,
 -webkit-transition: 0.5s;
 transition: 0.5s;
 }
-a:hover, a:active, a:focus {
-color: #e91e63;
-outline: none;
+.navbar-header a:hover, .navbar-header a:active, .navbar-header a:focus {
+    color: #fff;
+    outline: none;
+    border: 1px solid #3f51b5;
+    background: #3f51b5;
 }
 ::-webkit-scrollbar{
 width: 8px;
@@ -247,7 +249,7 @@ color: #ffffff;
 #home h1 {
   color: #ffffff;
   font-size: 2em;
-  background: #ff0078e6;
+  background: #3f51b5ed;
   margin-top: 10px;
   margin-bottom: 40px;
   padding: 100px 50px;
@@ -272,9 +274,9 @@ color: #ffffff;
   background: #ffffff;
 }
 button.tablinks {
-    color: #ff0078;
+    color: #3f51b5;
     border: 0;
-    border: 2px solid #ff0078;
+    border: 2px solid #3f51b5;
     background: #ffffff;
     border-radius: 50%;
     font-size: 14px;
@@ -291,7 +293,7 @@ button.tablinks:focus {
     outline: none;
 }
 button.tablinks:hover,button.tablinks.active {
-    background: #ff0078;
+    background: #3f51b5;
     color: #ffffff;
 }
 .tabs-content {
@@ -466,7 +468,7 @@ button.owl-dot:focus {
     outline: transparent;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff0077;
+    background: #3f51b5;
 }
 
 /* FORM */
