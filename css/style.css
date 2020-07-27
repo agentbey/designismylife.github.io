@@ -552,4 +552,7 @@ footer {
   section#feature,section#contact {
     padding: 80px 20px;
   }
+  #about .flex-grid .col:last-child {
+    margin: 040px;
+  }
 }
