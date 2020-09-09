@@ -549,8 +549,16 @@ footer {
   .home-info {
     margin: 5em 0;
   }
+    #home h1 {
+      font-size: 2em;
+      padding: 40px;
+      position: relative;
+  }
   section#feature,section#contact {
     padding: 80px 20px;
+  }
+  .feature-image {
+    padding: 10px;
   }
   #about .flex-grid .col:last-child {
     margin: 040px;
