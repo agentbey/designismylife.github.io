@@ -217,15 +217,12 @@ color: #ffffff;
 .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 4px;
 }
-.top, .feature, .about, .testimonial, .process, .contact {
-    color: #000;
-    margin: 0 10px;
-    font-size: 15px;
-    padding: 4px 6px;
-    border: 1px solid #555555;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+.contact {
+    color: #3F51B6;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* HOME */
