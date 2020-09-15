@@ -141,16 +141,8 @@ color: #ffffff;
     list-style: none;
 }
 .custom-navbar {
-  border: none;
-  margin-bottom: 0;
   padding: 10px;
   height: var(--headerHeight);
-  position: fixed;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 999;
   background: #fff;
   box-shadow: 0 0 13px rgba(197,197,197,.5);
