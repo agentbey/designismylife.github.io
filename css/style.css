@@ -70,7 +70,6 @@ input, button,
 transition: 0.5s;
 }
 
-
 ::-webkit-scrollbar{
 width: 8px;
 height: 8px;
@@ -353,6 +352,7 @@ button.tablinks:hover,button.tablinks.active {
 .team-thumb img {
   width: 100%;
 }
+.card {border: 1px solid #4451b659;padding: 40px;}
 
 /* PROCESS */
 section#process {
