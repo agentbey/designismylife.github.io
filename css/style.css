@@ -352,7 +352,7 @@ button.tablinks:hover,button.tablinks.active {
 .team-thumb img {
   width: 100%;
 }
-.card {border: 1px solid #4451b659;padding: 40px;}
+.card {border: 1px solid #4451b659;padding:20px;margin:20px;}
 
 /* PROCESS */
 section#process {
