@@ -309,6 +309,7 @@ button.tablinks:hover,button.tablinks.active {
   padding: 0;
 }
 #about h2 {
+    color: #404dbc;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
