@@ -24,6 +24,12 @@ h1 {
 h2 {
   font-size: 1.2em;
 }
+h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 p {
   color: #262626;
   font-size: 1.1em;
@@ -302,6 +308,13 @@ button.tablinks:hover,button.tablinks.active {
   margin: 0;
   padding: 0;
 }
+#about h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+}
 .team-thumb {
   background: #ffffff;
   position: relative;
@@ -352,7 +365,11 @@ button.tablinks:hover,button.tablinks.active {
 .team-thumb img {
   width: 100%;
 }
-.card {border: 1px solid #4451b659;padding:20px;margin:20px;}
+.card {border: 1px solid #4451b659;padding:60px 40px;margin:40px 20px;}
+
+.flex-grid.card img {
+    max-width: 360px;
+}
 
 /* PROCESS */
 section#process {
@@ -549,6 +566,8 @@ footer {
     padding: 10px;
   }
   #about .flex-grid .col:last-child {
-    margin: 040px;
+    margin: 40px;
   }
+  .card {padding:0;}
+  .flex-grid.card img {max-width: 100%;}
 }
