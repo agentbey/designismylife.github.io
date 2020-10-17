@@ -366,7 +366,12 @@ button.tablinks:hover,button.tablinks.active {
 .team-thumb img {
   width: 100%;
 }
-.card {border: 1px solid #4451b659;padding:60px 40px;margin:40px 20px;}
+.card {
+    border: 1px solid #efefef;
+    padding: 60px 40px;
+    margin: 40px 20px;
+    box-shadow: 0 0 20px #f4f4f4;
+}
 
 .flex-grid.card img {
     max-width: 360px;
