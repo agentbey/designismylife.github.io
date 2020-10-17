@@ -227,7 +227,6 @@ color: #ffffff;
 }
 .home-info {
     margin: 7em 20px 0;
-    padding: 0 40px;
 }
 #home {
   background: url('../images/home-bg.jpg') no-repeat center center;
@@ -559,9 +558,6 @@ footer {
   }
   .social-icon {
     float: none;
-  }
-  .home-info {
-    margin: 5em 0;
   }
     #home h1 {
       font-size: 2em;
