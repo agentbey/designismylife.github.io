@@ -242,15 +242,19 @@ color: #ffffff;
   text-align: center;
 }
 #home h1 {
-  color: #ffffff;
-  font-size: 2.6em;
-  background: #3f51b5ed;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  padding: 100px 120px;
-  position: relative;
+    color: #ffffff;
+    font-size: 2.2em;
+    line-height: 1.4em;
 }
+
+.home-info {
+    width: 80%;
+    margin: 0 auto;
+    background: #3f51b5e8;
+    border-radius: 10px;
+    padding: 60px;
+}
+
 .home-info h3 {
   color: #333333;
   font-size: 11px;
@@ -265,9 +269,6 @@ color: #ffffff;
     display: block;
     max-width: 100%;
     height: auto;
-}
-#feature {
-  background: #ffffff;
 }
 #feature a {
   color: #3f51b5;
@@ -310,9 +311,9 @@ button.tablinks:hover,button.tablinks.active {
     color: #404dbc;
     margin-top: 0;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 400;
-    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 24px;
 }
 .team-thumb {
   background: #ffffff;
@@ -563,10 +564,13 @@ footer {
     margin-bottom: 0;
   }
 
-  .home-info {margin: 10px;}
+  .home-info {
+    padding: 0;
+    width:90%;
+  }
 
   section {
-    padding: 20px;
+    padding: 40px 20px;
   }
   .feature-image {
     padding: 10px;
@@ -574,6 +578,17 @@ footer {
   #about .flex-grid .col:last-child {
     margin: 25px;
   }
-  .card {padding:0;margin:0;}
-  .flex-grid.card img {max-width: 100%;}
+  .card {
+    padding: 0;
+    margin: 0 0 40px;
+  }
+  .card:last-child {
+    margin: 40px 0 0;
+  }
+  .flex-grid.card img {
+    max-width: 100%;
+  }
+  .process-thumb {
+    margin-bottom: 20px;
+  }
 }
