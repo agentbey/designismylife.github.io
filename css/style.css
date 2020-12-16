@@ -559,7 +559,7 @@ footer {
     float: none;
   }
   #home {
-    height: auto;
+    height: 100%;
   }
   #home h1 {
     font-size: 1.7em;
