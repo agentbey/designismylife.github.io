@@ -564,6 +564,10 @@ footer {
       padding: 40px;
       position: relative;
   }
+  section#home {margin: 0}
+  .home-info {
+      margin: 20px;
+  }
   section#feature,section#contact {
     padding: 80px 20px;
   }
