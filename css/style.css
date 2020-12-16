@@ -565,8 +565,8 @@ footer {
 
   .home-info {margin: 10px;}
 
-  section#feature,section#contact {
-    padding: 80px 20px;
+  section {
+    padding: 20px;
   }
   .feature-image {
     padding: 10px;
@@ -574,7 +574,7 @@ footer {
   #about .flex-grid .col:last-child {
     margin: 25px;
   }
-  .card {padding:0;}
+  .card {padding:0;margin:0;}
   .flex-grid.card img {max-width: 100%;}
   .process-thumb {margin: 20px;}
 }
