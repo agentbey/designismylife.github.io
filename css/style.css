@@ -559,14 +559,15 @@ footer {
   .social-icon {
     float: none;
   }
-    #home h1 {
-      font-size: 2em;
-      padding: 40px;
-      position: relative;
-      margin-bottom: 0
+  #home h1 {
+    font-size: 2em;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 0;
   }
-  section#home {padding: 10px 0;}
-  .home-info {margin: 10px 20px;}
+
+  .home-info {margin: 10px;}
+
   section#feature,section#contact {
     padding: 80px 20px;
   }
