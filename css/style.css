@@ -91,7 +91,7 @@ background: #202020;
     position: absolute;
 }
 .section-title {
-    padding: 0 40px 40px;
+    padding: 0 20px 40px;
 }
 .overlay {
 background: #ffffff;
@@ -240,6 +240,7 @@ color: #ffffff;
   align-items: center;
   position: relative;
   text-align: center;
+  height: 640px;
 }
 #home h1 {
     color: #ffffff;
