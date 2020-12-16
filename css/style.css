@@ -54,7 +54,8 @@ p.author {
 }
 section {
     position: relative;
-    padding: 80px 0;
+    padding: 80px;
+
 }
 .col.float-left {
     text-align: left;
@@ -90,7 +91,7 @@ background: #202020;
     position: absolute;
 }
 .section-title {
-padding-bottom: 40px;
+padding: 40px;
 }
 .overlay {
 background: #ffffff;
@@ -225,9 +226,6 @@ color: #ffffff;
 #home .container {
     max-width: 1100px;
 }
-.home-info {
-    margin: 7em 10px 0;
-}
 #home {
   background: url('../images/home-bg.jpg') no-repeat center center;
   background-size: cover;
@@ -241,7 +239,6 @@ color: #ffffff;
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  padding-top: 1em;
   text-align: center;
 }
 #home h1 {
@@ -399,7 +396,6 @@ section#process {
   border-right: 2px solid #f0f0f0;
   padding: 20px 30px;
   min-height: 400px;
-  margin: 20px;
 }
 .process-title {
   padding-bottom: 5px;
@@ -580,4 +576,5 @@ footer {
   }
   .card {padding:0;}
   .flex-grid.card img {max-width: 100%;}
+  .process-thumb {margin: 20px;}
 }
