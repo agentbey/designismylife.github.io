@@ -558,6 +558,9 @@ footer {
   .social-icon {
     float: none;
   }
+  #home {
+    height: 0;
+  }
   #home h1 {
     font-size: 1.7em;
     padding: 30px;
