@@ -575,7 +575,7 @@ footer {
     padding: 10px;
   }
   #about .flex-grid .col:last-child {
-    margin: 40px;
+    margin: 25px;
   }
   .card {padding:0;}
   .flex-grid.card img {max-width: 100%;}
