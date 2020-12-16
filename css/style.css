@@ -563,13 +563,12 @@ footer {
       font-size: 2em;
       padding: 40px;
       position: relative;
+      margin-bottom: 0
   }
   section#home {padding: 10px 0;}
   .home-info {
       margin: 0;
   }
-  .home-info h1 {margin-bottom: 0}
-
   section#feature,section#contact {
     padding: 80px 20px;
   }
