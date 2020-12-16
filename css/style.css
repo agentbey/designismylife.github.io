@@ -564,7 +564,7 @@ footer {
       padding: 40px;
       position: relative;
   }
-  section#home {margin: 0}
+  section#home {margin: 0;padding: 10px 0;}
   .home-info {
       margin: 20px;
   }
