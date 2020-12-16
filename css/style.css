@@ -399,6 +399,7 @@ section#process {
   border-right: 2px solid #f0f0f0;
   padding: 20px 30px;
   min-height: 400px;
+  margin: 20px;
 }
 .process-title {
   padding-bottom: 5px;
