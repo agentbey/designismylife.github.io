@@ -376,6 +376,8 @@ button.tablinks:hover,button.tablinks.active {
 
 .flex-grid.card img {
     max-width: 360px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #f4f4f4;
 }
 
 /* PROCESS */
@@ -439,7 +441,7 @@ section#client-list {
 
 /* TESTIMONIAL */
 #testimonial {
-  background: #ffffff;
+    background: #202020;
 }
 #testimonial .col {
   margin: 0;
@@ -451,16 +453,16 @@ section#client-list {
 #testimonial h1, #testimonial h4 {
   color: #ffffff;
 }
+#testimonial h1 {
+    padding: 40px;
+}
 .testimonial-image {
   background: url('../images/testimonial-image.jpg') no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 65vh;
 }
-.testimonial-info {
-  background: #202020;
-  padding: 60px 80px;
-}
+
 .testimonial-info .item {
   display: block;
   width: 100%;
@@ -471,10 +473,9 @@ section#client-list {
   font-size: 1.2em;
   line-height: 1.6em;
   letter-spacing: .02em;
+  padding: 0 40px;
 }
-.testimonial-item {
-  margin: 20px 0;
-}
+
 .owl-carousel .owl-item img,
 .testimonial-item img,
 .testimonial-item h4 {
@@ -591,6 +592,7 @@ footer {
   }
   .flex-grid.card img {
     max-width: 100%;
+    padding: 30px 20px;
   }
   .process-thumb {
     margin-bottom: 20px;
