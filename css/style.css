@@ -454,7 +454,7 @@ section#client-list {
   color: #ffffff;
 }
 #testimonial h1 {
-    padding: 40px;
+    padding: 40px 0;
 }
 .testimonial-image {
   background: url('../images/testimonial-image.jpg') no-repeat center center;
