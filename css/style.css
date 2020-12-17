@@ -299,7 +299,8 @@ button.tablinks:hover,button.tablinks.active {
     color: #ffffff;
 }
 .tabs-content {
-    margin: 0 0 40px;
+    margin: 40px 0;
+    text-align: right;
 }
 
 
