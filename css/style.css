@@ -300,7 +300,7 @@ button.tablinks:hover,button.tablinks.active {
 }
 .tabs-content {
     margin: 40px 0;
-    text-align: right;
+    text-align: center;
 }
 
 
@@ -413,12 +413,6 @@ section#process {
 }
 .process-title h2 {
   text-align: center;
-}
-.process-thumb:hover {
-    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.22);;
-    z-index: 9;
-    position: relative;
-        transition: transform .3s, box-shadow .3s, background-color .3s, color .3s, opacity .3s;
 }
 
 /* CLIENTS */
@@ -581,7 +575,9 @@ footer {
   }
   .feature-image {
     padding: 10px;
+    margin: 40px 20px 20px;
   }
+
   #about .flex-grid .col:last-child {
     margin: 25px;
   }
